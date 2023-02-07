@@ -30,20 +30,32 @@ img{
   background-color: var(--color-white);
   height: max-content;
   text-align: center;
+  transition: .3s;
 }
 
 .card > h1{
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--color-dark-blue);
+  transition: .3s;
 }
 
 .card > p{
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--color-grayish-blue);
+  transition: .3s;
 }
 
-@media (max-width: 375px) {
-  
+@media (max-width: 410px) {
+  .card{
+    max-width: 300px;
+  }
+
+  .card h1{
+    font-size: 1.5rem;
+  }
+  .card p{
+    font-size: 1.2rem;
+  }
 }
